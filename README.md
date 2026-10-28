@@ -20,7 +20,6 @@ Project_2/
 ├── Alzheimer_Disease_Prediction.ipynb  # File Notebook xử lý dữ liệu và huấn luyện mô hình hoàn chỉnh
 ├── alzheimers_disease_data.csv     # Bộ dữ liệu bệnh Alzheimer (2,149 mẫu, 35 thuộc tính)
 ├── app.py                          # Ứng dụng Web chẩn đoán lâm sàng tương tác bằng Streamlit
-├── train_and_evaluate.py           # Pipeline huấn luyện, SMOTE, Baseline & Tinh chỉnh siêu tham số dạng .py
 ├── baseline_comparison.csv         # Bảng tổng hợp số liệu so sánh các mô hình học máy
 ├── README.md                       # Tài liệu hướng dẫn sử dụng và thông tin dự án
 │
