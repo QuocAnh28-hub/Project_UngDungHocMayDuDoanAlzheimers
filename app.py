@@ -93,19 +93,6 @@ else:
     current_model = knn_model
     model_name_tag = "KNeighborsClassifier"
 
-st.sidebar.markdown("---")
-st.sidebar.subheader("👤 Thông tin đề tài")
-st.sidebar.markdown("""
-- **Môn học**: Học máy cơ bản
-- **Đề tài**: Machine Learning for Alzheimer's Prediction
-- **Sinh viên thực hiện**:
-  1. Đỗ Hữu Quốc Ánh
-  2. Đỗ Tiến Đạt
-- **Lớp**: 12523W.4
-- **GVHD**: TS. Hoàng Quốc Việt
-- **Trường**: ĐH Công nghệ Kỹ thuật Hưng Yên
-""")
-
 # Sample Profiles in sidebar
 st.sidebar.markdown("---")
 st.sidebar.subheader("📋 Mẫu bệnh nhân thử nghiệm")
@@ -364,4 +351,4 @@ with tab3:
         st.caption("Accuracy: 69.53% | F1-Score: 61.81% | AUC: 0.7837")
 
 st.markdown("---")
-st.markdown("<p style='text-align: center; color: gray;'>Báo cáo Bài tập lớn Học máy cơ bản - Trường Đại học Công nghệ Kỹ thuật Hưng Yên - 2026</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: gray;'>Trường Đại học Công nghệ Kỹ thuật Hưng Yên - 2026</p>", unsafe_allow_html=True)
